@@ -1,0 +1,181 @@
+.pricing{
+
+    padding:100px 8%;
+
+    background:#F8FAFC;
+
+}
+
+.pricing-title{
+
+    text-align:center;
+
+    margin-bottom:60px;
+
+}
+
+.pricing-title span{
+
+    color:#6366F1;
+
+    font-weight:600;
+
+}
+
+.pricing-title h2{
+
+    font-size:42px;
+
+    margin:15px 0;
+
+    color:#1E293B;
+
+}
+
+.pricing-title p{
+
+    max-width:650px;
+
+    margin:auto;
+
+    color:#64748B;
+
+    line-height:1.8;
+
+}
+
+.pricing-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+
+    gap:35px;
+
+}
+
+.pricing-card{
+
+    background:white;
+
+    border-radius:20px;
+
+    padding:40px;
+
+    box-shadow:0 20px 40px rgba(0,0,0,.08);
+
+    position:relative;
+
+    transition:.35s;
+
+}
+
+.pricing-card:hover{
+
+    transform:
+    translateY(-15px);
+
+    box-shadow:
+    0 25px 60px rgba(99,102,241,.25);
+
+}
+
+.popular{
+
+    border:3px solid #6366F1;
+
+    transform:scale(1.05);
+
+}
+
+.badge{
+
+    position:absolute;
+
+    top:-15px;
+
+    right:25px;
+
+    background:#6366F1;
+
+    color:white;
+
+    padding:8px 18px;
+
+    border-radius:25px;
+
+    font-size:14px;
+
+    font-weight:600;
+
+}
+
+.pricing-card h3{
+
+    color:#1E293B;
+
+}
+
+.pricing-card h1{
+
+    font-size:52px;
+
+    margin:20px 0;
+
+    color:#6366F1;
+
+}
+
+.pricing-card p{
+
+    color:#64748B;
+
+    margin-bottom:25px;
+
+}
+
+.pricing-card ul{
+
+    list-style:none;
+
+    padding:0;
+
+}
+
+.pricing-card li{
+
+    margin-bottom:16px;
+
+    color:#475569;
+
+}
+
+.pricing-card button{
+
+    width:100%;
+
+    margin-top:30px;
+
+    padding:15px;
+
+    border:none;
+
+    border-radius:12px;
+
+    background:#6366F1;
+
+    color:white;
+
+    font-size:16px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.pricing-card button:hover{
+
+    background:#4F46E5;
+
+}
